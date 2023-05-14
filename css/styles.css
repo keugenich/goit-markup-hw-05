@@ -594,10 +594,6 @@ img {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
 
-  opacity: 1;
-  visibility: visible;
-  pointer-events: initial;
-
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -606,9 +602,6 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 350ms;
 }
 
 .modal {
@@ -624,9 +617,6 @@ img {
   border-radius: 4px;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  /* transition: opacity 250ms ease-in, transform 250ms ease-in;
-  transition-delay: 300ms; */
 }
 
 .backdrop.is-hidden .modal {
